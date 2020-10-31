@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2e2e2;
+    font-family: 'Raleway', sans-serif;
+}
+
+.image, .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    margin: auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h2 {
+    font-size: 1.6rem;
+    font-style: italic;
+    color: #616161;
+    text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+    .content img {
+      width: 350px;
+    }
+}
